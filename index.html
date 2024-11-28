@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Producto - Figura Dragon Ball</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Dragon Ball Store</h1>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Figuras</a></li>
+                <li><a href="#">Colecciones</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <form class="search-bar">
+                <input type="text" placeholder="Buscar figura...">
+                <button type="submit">🔍</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section class="product-details">
+            <div class="product-image">
+                <!-- Carrusel de imágenes -->
+                <div class="carousel">
+                    <img src="Gohan1.jpg" alt="Figura Gohan Beast" class="carousel-slide">
+                    <img src="Gohan2.jpg" alt="Figura Gohan 2" class="carousel-slide">
+                    <img src="Gohan3.jpg" alt="Figura Gohan Beast" class="carousel-slide">
+                    <img src="Gohan4.jpg" alt="Figura Gohan Beast" class="carousel-slide">
+                    <img src="Gohan5.jpg" alt="Figura Gohan Beast" class="carousel-slide">
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+            <div class="product-info">
+                <h2>Figura de Gohan Beast</h2>
+                <p>Esta increíble figura de Gohan Beast captura toda la esencia de un Saiyajin poderoso. Perfecta para los fans de Dragon Ball y los coleccionistas, esta figura es imprescindible en cualquier colección.</p>
+                <h3>$1,000.00 MXN</h3>
+                <a href="https://buy.stripe.com/test_eVa7uNdxldbN2WI001" target="_blank" class="btn-buy">Comprar ahora</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 Dragon Ball Store. Todos los derechos reservados.</p>
+            <ul class="footer-links">
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Términos y Condiciones</a></li>
+                <li><a href="#">Soporte</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
